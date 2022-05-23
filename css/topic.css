@@ -1,0 +1,56 @@
+#title {
+    font-family: roboto;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.black {
+    background-color: #1f2937;
+}
+
+.container {
+    display: flex;
+}
+
+.flex {
+    flex: auto;
+}
+
+body {
+    flex-direction: column;
+    align-items: center;
+}
+
+#content {
+    margin-top: 2vh;
+    background-color: darkslategray;
+    color: white;
+    border-radius: 30px;
+    padding: 2%;
+    font-family: comfortaa;
+}
+
+#image {
+    border-radius: 30px;
+    width: 50%;
+    margin-top: 10vh;
+}
+
+#subtitles {
+    color: grey;
+    font-family: roboto;
+    font-style: italic;
+}
+#back {
+    background-color: darkblue;
+    color: white;
+    border-radius: 30px;
+    border-color: darkblue;
+    margin-right: 45vw;
+}
+
+#container {
+    justify-content: left;
+}
